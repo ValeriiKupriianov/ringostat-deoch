@@ -1,1 +1,1 @@
-console.log('Site loaded');const p=new URLSearchParams(location.search);console.log('gclid',p.get('gclid'));document.getElementById('eventButton').onclick=()=>alert('JavaScript работает!');document.getElementById('testForm').onsubmit=e=>{e.preventDefault();alert('Форма отправлена');};
+
