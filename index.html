@@ -1,7 +1,48 @@
 <!DOCTYPE html>
-<html lang="ru"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Test Site</title><link rel="stylesheet" href="style.css"></head>
-<body><header><h1>Тестовый сайт</h1><p>Площадка для тестов.</p></header>
-<main><a href="tel:+380991112233">+38 (099) 111-22-33</a>
-<form id="testForm"><input placeholder="Имя"><input type="email" placeholder="Email"><button>Отправить</button></form>
-<button id="eventButton">Проверить JavaScript</button></main>
-<script src="script.js"></script></body></html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тестовий сайт</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Тестовий сайт</h1>
+        <p>Майданчик для тестування GTM, Ringostat та JavaScript.</p>
+    </header>
+
+    <main>
+        <section class="card">
+            <h2>Телефон</h2>
+            <a href="tel:+380991112233" class="phone">
+                +38 (099) 111-22-33
+            </a>
+        </section>
+
+        <section class="card">
+            <h2>Форма</h2>
+
+            <form id="testForm">
+                <input type="text" placeholder="Ваше ім'я" required>
+                <input type="email" placeholder="Email" required>
+
+                <button type="submit">
+                    Надіслати
+                </button>
+            </form>
+        </section>
+
+        <section class="card">
+            <button id="eventButton">
+                Перевірити JavaScript
+            </button>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
